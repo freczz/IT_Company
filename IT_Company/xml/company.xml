@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xs:noNamespaceSchemaLocation="company_schema.xsd">
+	<company name="upitgoes">
+		<employees>
+		
+			<department name="Board of Directors">
+				<person name="Steven Augustine" position="Chief Executive Officer" project = "unavailable"/>
+				<person name="Joseph Sorensen" position="Chief Technology Officer" project = "unavailable" />
+			</department>
+
+			<department name="Development">
+				<person name="Richard Ellis" position="Senior Developer" project="no"/>
+				<person name="Amber Holdbrook" position="Senior Developer" project="no"/>
+				<person name="Todd Champlin" position="Developer" project="yes"/>
+				<person name="Desire Amador" position="Developer" project="yes"/>
+				<person name="Sherly Carville" position="Developer" project="no"/>
+				<person name="Diana Armstrong" position="Developer" project="yes"/>
+				<person name="William Box" position="Developer" project="no"/>
+				<person name="Alberto Preslar" position="Junior Developer" project="yes"/>
+				<person name="Charyl Lee" position="Junior Developer" project="yes"/>
+				<person name="Jesse Ramirez" position="Junior Developer" project="no"/>
+				<person name="Carmelo Skinner" position="Junior Developer" project="no"/>
+			</department>
+
+			<department name="Quality Assurance">
+				<person name="Jessica Floyd" position="Senior QA" project="yes"/>
+				<person name="Dale Edwards" position="Senior QA" project="no"/>
+				<person name="Howard Price" position="Middle QA" project="yes"/>
+				<person name="Jose Smith" position="Middle QA" project="no" />
+				<person name="Denver Rivera" position="Middle QA" project="no"/>
+				<person name="Bob George" position="Junior QA"  project="yes"/>
+				<person name="Michael Jones" position="Junior QA" project="no"/>
+				<person name="Antonio Edwards" position="Junior QA" project="yes"/>
+			</department>
+
+			<department name="Managment">
+				<person name="Mark Horn" position="Project Manager" project="yes"/>
+				<person name="Marie Boyer" position="Project Manager" project="no"/>
+				<person name="Andrea Smallwood" position="Software Architect" project="yes"/>
+				<person name="Michael Milner" position="Software Architect" project="no"/>
+				<person name="Ruth Dumas" position="Team Lead" project="no"/>
+				<person name="Amy Cavanaugh" position="Team Lead" project="yes"/>
+				<person name="Brad Domingues" position="Team Lead" project="no"/>
+				<person name="Leaf Halpin" position="Tech Lead" project="yes"/>
+				<person name="Marie Davila" position="Tech Lead" project="no"/>
+			</department>
+			
+		</employees>
+	</company>
+</root>
